@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Shoe Shop</title>
+  <style>
+    /* CSS Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      background: #081b29;
+      color: #333;
+      line-height: 1.6;
+    }
+    .Men{
+      width=
+    }
+    
+    /* Header & Navigation */
+    header {
+    background-color: #081b29;
+    position: fixed;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    display: flex;
+    top:0px;
+    left:0px;
+    z-index: 100;
+    padding: 5px 10px;
+    width: 100%;
+    height: 100px;
+    }
+    #Home{
+    height: 100vh;
+    background: url(98312fc4702d4d57bcbd89a683fc6078.jpg) no-repeat;
+    background: cover;
+    background-position: right;
+    background-size: 40% 30%;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.home-content  h1{
+    color: #ffffff;
+    font-size: 25px;
+    max-width: 500px;
+    max-width: 700px;
+}
+    .owner{
+      font-size: 25px;
+      color: yellowgreen;
+    }
+    nav #nav{
+      margin-top: 0px;
+    }
+    nav a{
+      font-size: 18px;
+      text-decoration: none;
+      color:#ffffff;
+      font-size: 12px;
+      margin-left:20px;
+      margin-right: 30px;
+    }
+    /*#nav{
+      width:100%;
+      max-width: 1000px;
+      max-height: 500px;
+    }*/
+    #Julie{
+      position: ;
+    }
+    #Julie img{
+      width:70%;
+      max-width: 500px;
+    }
+    
+   /* .cart {
+      font-size: 1.2rem;
+    }
+    
+    nav {
+      margin: 20px 0;
+      text-align: center;
+    }
+    
+    nav a {
+      color: #333;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1rem;
+    }
+    
+    nav a:hover {
+      text-decoration: underline;
+    }
+    
+    /* Container */
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    
+    /* Hero Section */
+    .hero {
+      position: ;
+      text-align: center;
+      margin: 20px 0;
+    }
+    
+    .hero img {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 8px;
+    }
+    
+    .hero h2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+     transform: translate(-50%, -50%);
+      color: #fff;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px 20px;
+      border-radius: 5px;
+    }*/
+    
+    /* Products Section 
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      margin: 40px 0;
+    }*/
+    
+    .product-card {
+      background: #fff;
+      border-radius: 8px;
+     /* overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;*/
+    }
+    
+    /*.product-card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .product-card img {
+      width: 100%;
+      display: block;
+    }
+    
+    .product-details {
+      padding: 15px;
+      text-align: center;
+    }
+    
+    .product-details h3 {
+      margin-bottom: 10px;
+    }
+    
+    .product-details p {
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+      color: #666;
+    }
+    
+    .product-details button {
+      padding: 10px 20px;
+      background: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    
+    .product-details button:hover {
+      background: #555;
+    }*/
+    #Women img{
+      width:100%;
+      max-width: 800px;
+      border-radius:8px;
+    }
+    #Men{
+      position: ;
+    }
+    #Men img{
+      width:100%;
+      max-width: 800px;
+      border-radius: 8px;
+    }
+    form{
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      font-size: px;
+      text-align: ;
+    top:0px;
+    left:0px;
+    z-index:;
+    padding: 15px 10px;
+    height: 90vh;
+    max-width: 100%;
+    background-size: ;
+    }
+    #form{
+      background: transparent;
+      border: rgba(255, 255, 255, 0.35) solid 2px;
+      width:80%px;
+      max-width: 600px;
+      border-radius: 20px;
+    }
+    form input {
+      height:40px;
+      width:90%;
+      max-width: 500px;
+      margin-left:10px;
+      border: solid rgba(255, 255, 255, 0.35) 2px;
+      border-radius: 20px;
+      background: transparent;
+    }
+    /* Footer */
+    footer{
+      background: yellowgreen;
+      color: #ffffff;
+      text-align: center;
+      padding: 15px;
+      bottom: 0;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+      }
+      header h1 {
+        margin-bottom: 10px;
+        text-align:;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="owner">
+      Julie Boutique
+      <!--Tab to edit-->
+    </h1>
+    <nav id="nav">
+      <a href="#Home">Home</a>
+    <a href="#Women">Women</a>
+    <a href="#Men">Men</a>
+    <a href="#Shoes">Shoes</a>
+    <a href="#Contact">Contact</a>
+  </nav>
+  </header>
+  <section id="Home">
+    <div class="home-content">
+      <h1 style="margin-top: 70px;color: yellowgreen;" class="owner"> Welcome to Julie Boutique and pick an item of your choice</h1>
+    <img src="" style="width:100%;max-width: 800px; border-radius: 200px;" id="Julie"/>
+   
+    <div class="cart" id="cart-count">Cart: 0</div>
+    </div>
+  
+  </section>
+    <h2 style="color: yellowgreen;">
+    A fashioned boutique for everyone<!--Tab to edit-->
+  </h2>
+  <h3 style="color: yellowgreen;">
+    Pick the item you need below<!--Tab to edit-->
+  </h3>
+
+  <div class="container">
+    <!-- Hero Section -->
+    <section id="Women">
+      <h1 style="color: blue;">
+        Women fashion<!--Tab to edit-->
+      </h1>
+      <img src="1b67c3a9708047409ef9aad3bba46c70.jpg" style="width: "/>
+      </img src="">
+      <img src="IMG-20250117-WA0007.jpg"/>
+      <p style="color: blue;">
+       Order now at</b>Ksh. 3000
+      </p>
+      <!--Tab to edit-->
+    </section>
+    <section id="Men" class="Men">
+      <h1 style="color: blue;">
+        Men fashion<!--Tab to edit-->
+      </h1>
+      <img src="IMG-20250223-WA0000.jpg" style="width: "/>
+      <p style="color: blue;">
+       Order now at</b>Ksh. 4500 <!--Tab to edit-->
+      </p>
+      <img src="IMG-20250221-WA0001.jpg" style=""/>
+      <p style="color: blue;">
+       Order now at</b>Ksh.1500 <!--Tab to edit-->
+      </p>
+      <img src="IMG-20250221-WA0000.jpg" style=";"/>
+      <p style="color: blue;">
+        Order now at</b>Ksh.1500<!--Tab to edit-->
+      </p>
+      <img src="IMG-20250220-WA0011.jpg" style=""/>
+    </section>
+    <section id="Shoes" class="hero">
+      <h1 style="color: blue;">
+        Shoes<!--Tab to edit-->
+      </h1>
+      <!-- Using Unsplash's source endpoint to deliver a real image -->
+      <img src="f5407f94d3394472be8713fc27a9c374.jpg" alt="" />
+      <div class="product-card">
+        <img src="439305b41faf4c59884f795aa3515cce.jpg" alt="" />
+        <div class="product-details">
+          <h3 style="color: blue;">Sporty Sneakers</h3>
+          <p>$45.00</p>
+          <button onclick="addToCart('Sporty Sneakers')">Add to Cart</button>
+        </div>
+      </div>
+      
+      
+      <div class="product-card">
+        <img src="b61ec9855b1d4e55911b57fd7a5b28cd.jpg"/>
+        <div class="product-details">
+          <h3>Elegant Loafers</h3>
+          <p>$60.00</p>
+          <button onclick="addToCart('Elegant Loafers')">Add to Cart</button>
+        </div>
+      </div>
+      
+      <div class="product-card">
+        <img src="cf8d901df11b453fa4c8dc210b4ddb91.jpg"/>
+        <div class="product-details">
+          <h3>Running Shoes</h3>
+          <p>$50.00</p>
+          <button onclick="addToCart('Running Shoes')">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section id="Contact">
+  <h2 style="color: blue;">
+    if interested, contact me.
+  </h2>
+    <form action="page.html" method="get">
+       <div id="form">
+      <label for="Username">Username</label></br>
+      <input type="text" name="Username" id="Username" value="" placeholder="Enter name" required/><br />
+      <label for="Email">Email</label><br />
+      <input type="text" name="Email" id="Email" value="" placeholder="Enter Email" required/><br />
+      <label for="Location">Location</label><br />
+      <input type="text" name="Location" id="Location" value="" placeholder="Enter location" required/><br />
+      <label for="message">message</label><br />
+      <textarea name="message" id=message rows="8" cols="40" style="width: 90%;max-width:500px;margin-left: 10px;border-radius: 20px;border: solid 2px rgba(255, 255, 255, 0.35);background: transparent;" placeholder="Message"></textarea>
+      <button type="submit" style="background: blue;width: 160px;height: 30px;margin-left:align-items:center;justify-content:center;margin-left:30%;">Send Message</button>
+      </div>
+      </form>
+  <footer>
+    <p>&copy; 2025 Interactive Shoe Shop | All Rights Reserved</p>
+  </footer>
+  
+  <script>
+  </script>
+</body>
+</html>
+```
+  
